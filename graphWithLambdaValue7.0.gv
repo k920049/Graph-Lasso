@@ -1,0 +1,123 @@
+graph {
+	"ABG Base excess (mEq/L)"
+	"ABG FiO2"
+	"ABG HCO3 (mEq/L)"
+	"ABG O2 sat (%)"
+	"ABG PCO2 (mmHg)"
+	"ABG PO2 (mmHg)"
+	"ABG TCO2 (mEq/L)"
+	"ABG pH"
+	"ALT (SGPT) (units/L)"
+	"AST (SGOT) (units/L)"
+	"Abdominal girth (cm)"
+	"Albumin level (g/dL)"
+	"Alkaline phosphatase (units/L)"
+	"Amylase (units/L)"
+	"B-type Natriuretic Peptide (pg/mL)"
+	"BUN (mg/dL)"
+	"Bands %"
+	"Basophils%"
+	"Bicarbonate serum (mEq/L)"
+	"Bilirubin conjugated (mg/dL)"
+	"Bilirubin total (mg/dL)"
+	"Bilirubin unconjugated (mg/dL)"
+	"Bladder pressure (mmHg)"
+	"C-reactive protein (mg/dL)"
+	"CBG Base excess"
+	"CBG FiO2"
+	"CBG HCO3 (mEq/L)"
+	"CBG O2 sat  (%)"
+	"CBG PCO2 (mmHg)"
+	"CBG PO2 (mmHg)"
+	"CBG TCO2 (mEq/L)"
+	"CBG pH"
+	"CSF RBC"
+	"CSF WBC"
+	"Calcium ionized (mg/dL)"
+	"Calcium total (mg/dL)"
+	"Capillary refill rate (sec)"
+	"Central Venous Pressure (mmHg)"
+	"Cerebral perfusion pressure (mmHg)"
+	"Chloride (mEq/L)"
+	"Creatinine (mg/dL)"
+	DiastolicBP
+	"Eosinophils %"
+	"EtCO2 (mmHg)"
+	EyeResponse
+	"FDP Titer"
+	"Fibrinogen (mg%)"
+	"GGT (units/L)"
+	GlascowCS
+	"Glucose (mg/dL)"
+	"Head circumference (cm)"
+	"Heart rate (bpm)"
+	"Height (cm)"
+	Hema
+	Hemo
+	INR
+	"Intracranial pressure (mmHg)"
+	"Lactate (mg/dL)"
+	"Lactate Dehydrogenase blood (units/L)"
+	"Lactic Acid blood (mg/dL)"
+	"Left pupillary response"
+	"Lipase (units/L)"
+	"Lymphocyte %"
+	"MCH (pg)"
+	"MCHC  (%)"
+	"MCV (fL)"
+	"Magnesium level (mg/dL)"
+	"Metamyelocytes %"
+	"Monocytes %"
+	MotorResponse
+	"Myelocytes %"
+	"Near-infrared spectroscopy (%)"
+	"Neutrophils %"
+	"Oxygentaion index"
+	"P/F ratio"
+	PT
+	PTT
+	"PaO2/FiO2(LungInSc)"
+	"Phosphorus level (mg/dL)"
+	"Platelet count (K/uL)"
+	Potassium
+	"Protein total (g/dL)"
+	PulseOximetry
+	"Pupillary response"
+	"RBC blood (M/uL)"
+	"RDW  (%)"
+	"Respiratory rate (bpm)"
+	"Right pupillary response"
+	Schistocytes
+	Sodium
+	SystolicBP
+	"Temperature ( C)"
+	"Triglycerides (mg/dL)"
+	"VBG Base excess (mEq/L)"
+	"VBG FiO2"
+	"VBG HCO3 (mEq/L)"
+	"VBG O2 sat  (%)"
+	"VBG PCO2 (mmHg)"
+	"VBG PO2 (mmHg)"
+	"VBG TCO2 (mEq/L)"
+	"VBG pH"
+	VerbalResponse
+	Weight
+	"Alkaline phosphatase (units/L)" -- Weight
+	"BUN (mg/dL)" -- "Creatinine (mg/dL)"
+	"BUN (mg/dL)" -- Weight
+	"Bilirubin total (mg/dL)" -- "Height (cm)"
+	"Creatinine (mg/dL)" -- Weight
+	GlascowCS -- Weight
+	"Heart rate (bpm)" -- Weight
+	"Height (cm)" -- Weight
+	"Lymphocyte %" -- Weight
+	"MCH (pg)" -- "MCV (fL)"
+	"MCH (pg)" -- Weight
+	"MCHC  (%)" -- Weight
+	"Neutrophils %" -- Weight
+	"Oxygentaion index" -- Weight
+	"RDW  (%)" -- Weight
+	"Respiratory rate (bpm)" -- Weight
+	SystolicBP -- Weight
+	VerbalResponse -- Weight
+}
